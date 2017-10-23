@@ -1,10 +1,10 @@
-package kintai.service
+package auth.service
 
 /**
- * Created by admin on 2017/05/26.
+ * Created by version1 on 2017/05/26.
  */
 
-import kintai.model.User
+import auth.model.User
 import org.springframework.beans.factory.annotation.Autowired
 
 import org.springframework.security.core.userdetails.UserDetails;

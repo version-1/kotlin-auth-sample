@@ -1,4 +1,4 @@
-package kintai.service
+package auth.service
 
 /**
  * Created by version1 on 2017/02/11.
@@ -6,8 +6,8 @@ package kintai.service
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
-import kintai.model.User
-import kintai.repository.UserRepository
+import auth.model.User
+import auth.repository.UserRepository
 
 /**
  * DBからのデータ取得と加工を行う.

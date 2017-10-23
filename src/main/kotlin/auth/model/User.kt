@@ -1,4 +1,4 @@
-package kintai.model
+package auth.model
 
 /**
  * Created by version1 on 2017/02/11.

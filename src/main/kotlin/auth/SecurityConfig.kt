@@ -1,10 +1,10 @@
-package kintai
+package auth
 
 /**
- * Created by admin on 2017/05/26.
+ * Created by auth on 2017/05/26.
  */
-import kintai.AuthenticationFailureHandler
-import kintai.service.UserDetailsServiceImpl
+import auth.AuthenticationFailureHandler
+import auth.service.UserDetailsServiceImpl
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Configuration

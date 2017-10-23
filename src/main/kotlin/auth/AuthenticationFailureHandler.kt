@@ -1,7 +1,7 @@
-package kintai
+package auth
 
 /**
- * Created by admin on 2017/05/26.
+ * Created by version1 on 2017/05/26.
  */
 import java.io.IOException
 
