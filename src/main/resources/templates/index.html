@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>トップページ</title>
+    <style>
+        table,tr,td{
+          border: 1px solid lightgray;
+        }
+
+    </style>
+</head>
+<body>
+<h1>トップページ</h1>
+<form id="loginForm" method="post" th:action="@{/users/login}">
+    <input type="text" name="email" />
+    <input type="password" name="encrypted_password"/>
+    <input type="submit" value="ログイン"/>
+</form>
+</body>
+</html>

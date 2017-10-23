@@ -1,0 +1,16 @@
+#logging.level.org.springframework: DEBUG
+#logging.level.: DEBUG
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost/test
+    username: root
+    password: 
+    driverClassName: com.mysql.jdbc.Driver
+# JPA
+jpa:
+  hibernate:
+  ddl-auto: update
+  show-sql: true
+# Thymeleaf
+thymeleaf:
+  cache: false
